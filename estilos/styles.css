@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgba(240, 151, 151, 0.703);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.SecHistoria p{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.SecHistoria img{
+    height: 500px;
+    width: 700px;
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 15px;
+    border-style: solid;
+}
+
+.lista {
+    display: flex;
+    gap: 20px;
+    list-style: none;   
+    justify-content: center;
+    align-items: center;
+}
+ 
+.lista li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.introduccion a:hover{
+    background: rgb(144, 1, 1);
+
+}
+
+
+.introduccion{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.alcalde {
+    height: 500px;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    font-style: italic;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+}
+.capAlcalde {
+    text-align: center;
+    font-size: 25px;
+}
+
+.Alfonso{
+    margin-top: 50px;
+    align-items: center;
+}
+
+.Fundador img {
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+}
+
+.Fundador p {
+    align-items: center;
+    font-size: 25px;
+}
+
+
+
+.ResumenHistoria {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ResumenTradiciones {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+
+.ResumenTuristica {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+
+.ResumenMultimedia{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+h2{
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-image: url(../recursos/img/fondoTitulos.jpg);
+    background-size: cover;
+}
+
+.ResumenContacto {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background:url(../recursos/img/bandera.png) no-repeat center;
+    background-size: cover;
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 63px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.navbar a:hover{
+    background: rgb(144, 1, 1);
+}
+
+.titulo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: red;  
+   
+}
+
+
+.ResumenHistoria a:hover{
+    background: rgb(144, 1, 1);
+}
+
+.ResumenTradiciones a:hover{
+    background: rgb(144, 1, 1);
+}
+
+.ResumenTuristica a:hover {
+    background: rgb(144, 1, 1);
+}
+
+.ResumenMultimedia a:hover{
+    background: rgb(144, 1, 1);
+}
+
+.ResumenContacto a:hover{
+    background: rgb(144, 1, 1);
+}
+
+.content{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista{
+ display: flex;
+ align-items:center;
+ padding-inline: 50px;
+
+
+}
+
+.Imagenes {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.Imagenes img{
+    height: 500px;
+    width: 600px;
+    caption-side: bottom;
+    text-align: center;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+.Imagenes p{
+    font-size: 30px;
+    font-style:italic;
+    color: rgb(56, 55, 56);
+}
+
+.Tradiciones p{
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.listaTradiciones {
+    display: block;
+    list-style:disc;
+    font-size: 20px;
+    align-items: center;
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.listaTradiciones li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.Tradiciones img{
+    height: 500px;
+    width: 600px;
+    align-items: center;
+}
+
+.estadisticas p{
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 18px;
+    font-style: oblique;
+    align-items: center;
+    text-decoration:underline;
+    color:rgb(199, 56, 56);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tabla_poblacion, .tabla_sexo, .tabla_edad, .tabla_pais, .tabla_distribucion {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+}
+
+.lista_grafica {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.lista_grafica li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.lista_grafica img {
+    max-width: 300px;
+    border: 2px solid #ccc;
+}
+
+.turismo p {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h4{
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(199, 56, 56);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.catedrales li{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.catedrales{
+    display: block;
+    list-style:disc;
+    font-size: 15px;
+    align-items: center;
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.catedrales img{
+    align-items: center;
+    text-align: centers;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.monumentos p{
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.monumentos img{
+    border-radius: 15px;
+    border-style: solid;
+}
+
+footer {
+    background-color: red;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+footer p{
+    color: white;
+}
+
+footer a:hover {
+    background: rgb(144, 1, 1);
+}
+
+
+.formulario-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.formulario-container h2 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+
+.formulario-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.formulario-container input[type="text"],
+.formulario-container input[type="email"],
+.formulario-container textarea,
+.formulario-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.formulario-container textarea {
+    resize: vertical;
+}
+
+.formulario-container input:focus,
+.formulario-container textarea:focus,
+.formulario-container select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+
+.tipo-consulta {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.tipo-consulta label {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.tipo-consulta input[type="radio"] {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+
+.politica-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.politica-container input[type="checkbox"] {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+.formulario-container input[type="submit"] {
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+    .formulario-container {
+        padding: 15px;
+    }
+
+    .formulario-container h2 {
+        font-size: 20px;
+    }
+}

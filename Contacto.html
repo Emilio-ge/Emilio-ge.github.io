@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Conoce Plasencia/Contacto</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+
+</head>
+<body>
+    <nav class="navbar"> 
+
+        <picture class="imagen">
+            <img src="recursos/img/escudo.png" alt="" width="60px"> 
+
+        </picture>
+        
+        <a href="index.html">Home</a>
+        <a href="historia.html">Historia</a>
+        <a href="Tradiciones.html">Tradiciones</a>
+        <a href="Datos_estadisticos.html">Datos Estadísticos</a>
+        <a href="Informacion_turistica.html">Información turística</a>
+        <a href="Contenido_multimedia.html">Contenido multimedia</a>
+        <a href="Contacto.html">Contacto</a>
+    </nav>
+    
+    <header class="header">
+
+    </header>
+
+    <div class="formulario-container">
+        <h2>Contacto</h2>
+        <form onsubmit="return mostrarMensaje()">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+	 <div class="tipo-consulta">
+	    <label for="tipo">Tipo de consulta:</label>
+	    <input type="radio" id="turística" name="tipo" value="turística">
+	    <label for="turística">Turística</label>
+	    <input type="radio" id="Tradiciones" name="tipo" value="Tradiciones">
+	    <label for="Tradiciones">Tradiciones</label>
+	    <input type="radio" id="ambos" name="tipo" value="ambos">
+	    <label for="ambos">Ambos</label>
+	 </div>
+
+	    <label for="ugencia">Urgencia en Respuesta</label>
+	    <select id="urgencia" name="urgencia">
+		<option value="urgente">Urgente</option>
+		<option value="moderado">Moderada</option>
+		<option value="lenta">Sin prisas</option>
+	   </select>
+
+            <div class="politica-container">
+                <input type="checkbox" id="politica" name="politica" required>
+                <label for="politica">Acepto la política de privacidad</label>
+            </div>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <script>
+        function mostrarMensaje() {
+            alert("Mensaje enviado, me pondré en contacto con usted lo antes posible. Un saludo.");
+            return false; // Esto evita que el formulario se envíe realmente
+        }
+    </script>
+</body>
+
+<footer>
+    <div>
+        <img src="recursos/img/escudo.png" height="70px">
+        <p>Conoce Plasencia </p>
+        <p> Página web creada por Emilio</p>
+        <p>(c) Emilio 2024</p> 
+        <p><a class="btn" href="Contacto.html">Contacto</a></p> 
+    </div>
+</footer>
+</html>
